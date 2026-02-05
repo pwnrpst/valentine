@@ -11,14 +11,44 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
-.container {
+  .container {
     text-align: center;
-}
-
-.header_text {
-    font-size: 3em;
+  }
+  
+  h1 {
+    font-size: 2.5em;
     color: #d32f2f;
-}
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #fa0561;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .yes-button:hover{
+    background-color: #e03777;
+  }
+  
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #d3d3d3;
+    color: black
+    ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 
 .gif_container img {
     width: 300px; 
