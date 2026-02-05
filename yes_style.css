@@ -22,7 +22,7 @@ body {
 
 .gif_container img {
     width: 300px; 
-    max-width: 1500px; 
+    max-width: auto; 
     border-radius: 10px;
     margin-top: 20px;
 }
