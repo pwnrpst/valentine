@@ -8,9 +8,10 @@ body {
     height: 100vh;
     margin: 0;
     background-color: white;
-    font-family: "DM Sans", sans-serif;
-}
-
+    font-family: "Nunito", sans-serif;
+    flex-direction: column;
+  }
+  
   .container {
     text-align: center;
   }
